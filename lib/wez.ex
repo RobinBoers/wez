@@ -14,7 +14,7 @@ defmodule Wez do
     ])
   end
 
-  @spec evaluate([Operation.t()]) :: Stack.t()
+  @spec evaluate([Op.t()]) :: Stack.t()
   def evaluate(operations) do
     evaluate(operations, Stack.new())
   end

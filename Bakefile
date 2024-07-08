@@ -1,0 +1,17 @@
+#!/bin/bash
+
+build() {
+  mix run -e "Wez.main()"
+}
+
+test() {
+  mix test
+}
+
+format() {
+  mix format
+}
+
+check() {
+  mix check
+}
