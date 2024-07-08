@@ -15,5 +15,8 @@ defmodule Wez.MixProject do
       extra_applications: [:logger]
     ]
 
-  defp deps, do: []
+  defp deps,
+    do: [
+      {:typedstruct, "~> 0.5.3"}
+    ]
 end

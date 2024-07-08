@@ -24,3 +24,8 @@ wez-*.tar
 
 # Temporary files, for example, from tests.
 /tmp/
+
+# LSP bullshit
+.lexical
+.elixir-tools
+.elixirls
