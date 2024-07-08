@@ -1,5 +1,6 @@
 defmodule WezTest do
   use ExUnit.Case
+
   alias Wez.Op
 
   test "halt" do

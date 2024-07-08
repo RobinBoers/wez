@@ -3,8 +3,8 @@ defmodule Wez do
   Stack-based virtual machine.
   """
 
-  alias Wez.Stack
   alias Wez.Op
+  alias Wez.Stack
 
   @doc false
   @spec main() :: Stack.t()
